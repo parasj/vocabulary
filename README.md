@@ -6,8 +6,6 @@ Why  HTML5/CSS3
 ===============
 This app is deployed to Android and coming soon to iOS. It also works on WP7, BlackBerry and other platforms that support HTML5 and CSS4.
 
-The UI is made in jQuery Mobile for compatability.
-
 License
 ========
 MIT Licensed,
