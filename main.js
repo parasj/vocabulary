@@ -173,14 +173,17 @@ var App = new Ext.Application({
 			]
 		});
 		
-		flashcardGame = new Ext.form.FormPanel({
+		flashcardGame = new Ext.Panel({
 			id: 'flashcardGame',
 			load: function(flashcardID) {
-				loadFlashcard = flashcardID;
+				//Ext.util.Cookies.set("lastFlashcard", this.flashcardID);
+				this.loadFlashcard = flashcardID;
 			},
-			onReady: function() {
-				alert(loadFlashcard);
-			},
+			items: [
+				{
+					text: 'Home',
+				},
+			],
 			dockedItems: [flashcardGameTopToolbar, flashcardGameBottomToolbar]
 		});
 		
