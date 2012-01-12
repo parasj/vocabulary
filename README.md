@@ -1,6 +1,6 @@
 What is Vocab?
 ======================
-Vocab is an iOS application that lets you add and review your vocabulary words. It is made in Sencha Touch.
+Vocab is an HTML5 Mobile Application that lets you add and review your vocabulary words. It is made in Sencha Touch.
 
 Why  HTML5/CSS3
 ===============
